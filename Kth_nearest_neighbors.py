@@ -6,7 +6,7 @@ iris  = datasets.load_iris()
 
 features = iris.data
 labels = iris.target
-# print(iris.DESCR)
+#print(iris.DESCR)
 
 print(features[0],labels[0])
 

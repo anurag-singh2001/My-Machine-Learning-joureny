@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 iris=datasets.load_iris()
 
-# print(iris['data'])
+#print(iris['data'])
 
 x=iris['data'][:,3:]
 y=(iris['target']==2).astype(np.int32)

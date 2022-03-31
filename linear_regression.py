@@ -6,7 +6,7 @@ import scipy
 
 diabetes=datasets.load_diabetes()
 #print(diabetes.keys())
-# print(diabetes['DESCR'])
+#print(diabetes['DESCR'])
 
 # for single label
 diabetes_X  =  diabetes.data[:,np.newaxis,2]
